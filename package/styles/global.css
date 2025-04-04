@@ -1,1 +1,39 @@
-/* Shared styles and TailwindCSS configurations/ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 30 64 175;           /* #1E40AF */
+  --secondary: 147 51 234;        /* #9333EA */
+  --primary-text: 30 41 59;       /* #1E293B */
+  --secondary-text: 71 85 105;    /* #475569 */
+  --text: 15 23 42;               /* #0F172A */
+  --link-text: 37 99 235;         /* #2563EB */
+}
+
+[data-theme="dark"] {
+  --primary: 37 99 235;           /* #2563EB */
+  --secondary: 147 51 234;        /* #9333EA */
+  --primary-text: 229 231 235;    /* #E5E7EB */
+  --secondary-text: 156 163 175;  /* #9CA3AF */
+  --text: 243 244 246;            /* #F3F4F6 */
+  --link-text: 59 130 246;        /* #3B82F6 */
+}
+
+[data-theme="blue"] {
+  --primary: 0 119 182;           /* #0077B6 */
+  --secondary: 0 180 216;         /* #00B4D8 */
+  --primary-text: 2 62 138;       /* #023E8A */
+  --secondary-text: 0 150 199;    /* #0096C7 */
+  --text: 3 4 94;                 /* #03045E */
+  --link-text: 72 202 228;        /* #48CAE4 */
+}
+
+[data-theme="retro"] {
+  --primary: 255 109 0;           /* #FF6D00 */
+  --secondary: 255 215 0;         /* #FFD700 */
+  --primary-text: 139 69 19;      /* #8B4513 */
+  --secondary-text: 160 82 45;    /* #A0522D */
+  --text: 93 64 55;               /* #5D4037 */
+  --link-text: 255 140 0;         /* #FF8C00 */
+}
