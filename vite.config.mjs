@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
+import { peerDependencies } from "./package.json";
 
 export default defineConfig({
   plugins: [react()],
@@ -11,7 +12,7 @@ export default defineConfig({
       fileName: (format) => `uiLibrary.${format}.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom"], // Exclude peer dependencies
+      external: Object.keys(peerDependencies), // Exclude peer dependencies
       output: {
         globals: {
           react: "React",
