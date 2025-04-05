@@ -2,11 +2,11 @@
   "name": "ui_library",
   "version": "0.0.1",
   "description": "A React UI component library",
-  "author": "Anurag Dubey",
+  "author": "ui_library",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/your-ui-library"
+    "url": "https://github.com/anurag2169/ui-library-cohert.git"
   },
   "main": "dist/uiLibrary.umd.js",
   "module": "dist/uiLibrary.es.js",
@@ -19,9 +19,11 @@
   "exports": {
     ".": {
       "import": "./dist/uiLibrary.es.js",
-      "require": "./dist/uiLibrary.umd.js",
-      "styles.css": "./dist/tailwind.css"
-
+      "require": "./dist/uiLibrary.umd.js"
+    },
+    "./styles.css": {
+      "require": "./dist/tailwind.css",
+      "default": "./dist/tailwind.css"
     }
   },
   "peerDependencies": {
