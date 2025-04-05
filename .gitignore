@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+ui_library-0.0.1.tgz
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
