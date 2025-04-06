@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useEffect } from "react";
 import "../styles/global.css"; // Auto-import styles inside the provider
 
 const ThemeContext = createContext();
-const availableThemes = ["light", "dark", "blue", "red"];
+const availableThemes = ["light", "dark"];
 
 export function ThemeProvider({ children, initialTheme = "light" }) {
   const storedTheme = localStorage.getItem("theme");
