@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "package/index.js"),
-      name: "uiLibrary",
-      fileName: (format) => `uiLibrary.${format}.js`,
+      name: "lotus_ui",
+      fileName: (format) => `lotus_ui.${format}.js`,
     },
     rollupOptions: {
       external: Object.keys(peerDependencies), // Exclude peer dependencies

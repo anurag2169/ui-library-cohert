@@ -1,15 +1,15 @@
 {
-  "name": "ui_library",
+  "name": "lotus_ui",
   "version": "0.0.1",
-  "description": "A React UI component library",
-  "author": "ui_library",
+  "description": "A beautiful and elegant UI component library, focused on clean design and calm aesthetics.",
+  "author": "LotusUI",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/anurag2169/ui-library-cohert.git"
   },
-  "main": "dist/uiLibrary.umd.js",
-  "module": "dist/uiLibrary.es.js",
+  "main": "dist/lotus_ui.umd.js",
+  "module": "dist/lotus_ui.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
@@ -18,12 +18,12 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/uiLibrary.es.js",
-      "require": "./dist/uiLibrary.umd.js"
+      "import": "./dist/lotus_ui.es.js",
+      "require": "./dist/lotus_ui.umd.js"
     },
     "./styles.css": {
-      "require": "./dist/tailwind.css",
-      "default": "./dist/tailwind.css"
+      "require": "./dist/lotus_ui.css",
+      "default": "./dist/lotus_ui.css"
     }
   },
   "peerDependencies": {
@@ -36,7 +36,7 @@
     "build": "vite build && npm run build:css",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:css": "tailwindcss -i ./package/styles/global.css -o ./dist/tailwind.css"
+    "build:css": "tailwindcss -i ./package/styles/global.css -o ./dist/lotus_ui.css"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",

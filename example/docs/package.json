@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lotus_ui": "file:../../lotus_ui-0.0.1.tgz",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "ui_library": "file:../../ui_library-0.0.1.tgz"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

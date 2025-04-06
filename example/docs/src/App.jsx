@@ -1,7 +1,6 @@
 import "./App.css";
-// import { Button } from "../../../package/index.js";
-import { Button, useTheme } from "ui_library";
-import "ui_library/styles.css";
+import { Button, useTheme } from "lotus_ui";
+import "lotus_ui/styles.css";
 
 function App() {
   const { theme, setAppTheme, availableThemes } = useTheme();
