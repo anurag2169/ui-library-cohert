@@ -10,18 +10,24 @@ module.exports = {
 
         primary: "rgb(var(--primary))",
         primaryForeground: "rgb(var(--primary-foreground))",
+        primaryLight: "rgb(var(--primaryLight))",
 
         secondary: "rgb(var(--secondary))",
         secondaryForeground: "rgb(var(--secondary-foreground))",
+        secondaryLight: "rgb(var(--secondaryLight))",
 
         muted: "rgb(var(--muted))",
         mutedForeground: "rgb(var(--muted-foreground))",
+        mutedLight: "rgb(var(--mutedLight))",
 
-        accent: "rgb(var(--accent))",
-        accentForeground: "rgb(var(--accent-foreground))",
 
         destructive: "rgb(var(--destructive))",
         destructiveForeground: "rgb(var(--destructive-foreground))",
+        destructiveLight: "rgb(var(--destructiveLight))",
+
+        success: "rgb(var(--success))",
+        successForeground: "rgb(var(--success-foreground))",
+        successLight: "rgb(var(--successLight))",
 
         border: "rgb(var(--border))",
         input: "rgb(var(--input))",

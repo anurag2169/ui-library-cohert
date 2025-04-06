@@ -4,22 +4,27 @@
 
 :root {
   --background: 255 255 255;
-  --foreground: 37 35 41;
+  --foreground: 72 72 72;
 
-  --primary: 54 52 150;
-  --primary-foreground: 251 251 251;
+  --primary: 34 34 34;
+  --primary-foreground: 255 255 255;
+  --primaryLight: 227 227 227;
 
-  --secondary: 247 247 255;
-  --secondary-foreground: 54 52 150;
+  --secondary: 78 54 245;
+  --secondary-foreground: 255 255 255;
+  --secondaryLight: 221 227 255;
 
-  --muted: 247 247 255;
-  --muted-foreground: 133 128 145;
+  --muted: 227 227 227;
+  --muted-foreground: 146 146 146;
+  --mutedLight: 245 245 245; 
 
-  --accent: 247 247 255;
-  --accent-foreground: 54 52 150;
+  --destructive: 238 0 0;
+  --destructive-foreground: 255 255 255;
+  --destructiveLight: 247 212 214;
 
-  --destructive: 208 47 11;
-  --destructive-foreground: 255 255 255; /* Assumed for contrast */
+  --success: 17 168 73;
+  --success-foreground: 255 255 255;
+  --successLight: 185 249 207;
 
   --border: 235 235 255;
   --input: 235 235 255;
@@ -27,74 +32,31 @@
 }
 
 [data-theme="dark"] {
-  --background: 37 35 41;
-  --foreground: 255 255 255;
+  --background: 8 9 14; /* #08090e */
+  --foreground: 223 223 223; /* #dfdfdf */
 
-  --primary: 235 235 255;
-  --primary-foreground: 54 52 150;
+  --primary: 241 241 241;;
+  --primary-foreground: 0 0 0;
+  --primaryLight: 34 34 34;
 
-  --secondary: 63 61 71;
-  --secondary-foreground: 255 255 255;
+  --secondary: 193 203 255;
+  --secondary-foreground: 0 0 0;
+  --secondaryLight: 31 22 90;
 
-  --muted: 63 61 71;
-  --muted-foreground: 161 142 213;
+  --muted: 51 51 51; /* #333333 */
+  --muted-foreground: 102 102 102;
+  --mutedLight: 34, 34, 34;
 
-  --accent: 63 61 71;
-  --accent-foreground: 255 255 255;
+  --destructive: 255 193 193;
+  --destructive-foreground: 0 0 0;
+  --destructiveLight: 80 0 0;
 
-  --destructive: 222 78 15;
-  --destructive-foreground: 255 255 255; /* Assumed */
+  --success: 185 249 207;
+  --success-foreground: 48 25 00;
+  --successLight: 3 48 22;
 
-  --border: 255 255 255; /* With 10% opacity */
-  --input: 255 255 255; /* With 15% opacity */
-
+  --border: 255 255 255;
+  --input: 255 255 255;
   --ring: 133 128 145;
 }
 
-[data-theme="blue"] {
-  --background: 0 0% 100%;
-  --foreground: 222.2 84% 4.9%;
-
-  --primary: 221.2 83.2% 53.3%;
-  --primary-foreground: 210 40% 98%;
-
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
-
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
-
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
-
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 210 40% 98%;
-
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 221.2 83.2% 53.3%;
-}
-
-[data-theme="red"] {
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
-
-  --primary: 346.8 77.2% 49.8%;
-  --primary-foreground: 355.7 100% 97.3%;
-
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
-
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
-
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
-
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 0 0% 98%;
-
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 346.8 77.2% 49.8%;
-}
