@@ -1,5 +1,5 @@
 // Barrel file exporting all components
-import { ThemeProvider, useTheme } from "./context/themeProvider";
+import { ThemeProvider, useTheme } from "./context/ThemeProvider";
 
 
 import "./styles/global.css";
