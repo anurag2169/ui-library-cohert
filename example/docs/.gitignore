@@ -12,17 +12,9 @@ dist
 dist-ssr
 *.local
 
-ui_library-0.0.1.tgz
-ui_library-*.tgz
-
-lotus_ui-0.0.1.tgz
-lotus_ui-*.tgz
-
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-!.vscode/settings.json
 .idea
 .DS_Store
 *.suo
